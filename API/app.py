@@ -20,9 +20,9 @@ def get_superheroes_marvel():
     rows = ["Spider-Man", "Iron Man", "Thor", "Hulk", "Black Widow", "Doctor Strange", "Black Panther", "Captain America"]
     return rows
 
-@app.get("/LOTRWarriors")
-def get_lotr_warriors():
-    rows = ["Frodo", "Sam", "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum", "El anillo"]
+@app.get("/cursosPlatzi")
+def get_cursos():
+    rows = ["Docker, Bash, Linux, Git, Python, JavaScript, React, Angular, Vue", "Data Science, Machine Learning, Deep Learning, Data Analysis", "Marketing Digital, SEO, SEM, Social Media", "Diseño UX/UI, Diseño Gráfico, Diseño Web", "Negocios y Emprendimiento, Finanzas Personales"]
     return rows
 
 @app.get("/starwarsWarriors")
